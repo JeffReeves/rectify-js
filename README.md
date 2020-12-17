@@ -1,5 +1,5 @@
-# Rectify
+# Rectify JS
 
-My userscripts (.js) for use with plugins such as Tampermonkey (Chromium) / Greasemonkey (Firefox)
+My JavaScript userscripts (.js) for use with plugins such as Tampermonkey (Chromium) / Greasemonkey (Firefox)
 
-![Recify](assets/rectify.png)
+![Rectify JS](assets/rectify.png)
