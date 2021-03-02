@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Old Reddit
+// @name         Reddit Redirect to Old Reddit
 // @namespace    https://binary.run/
 // @version      0.1
-// @description  Redirect to Old Reddit
-// @author       You
+// @description  Redirect to old.reddit.com
+// @author       Jeff Reeves
 // @match        https://www.reddit.com/*
 // @grant        none
 // ==/UserScript==
