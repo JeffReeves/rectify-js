@@ -21,6 +21,12 @@
         return false;
     }
 
+    // if wadsworth=0 is in the URL parameter, exit early
+    if(URL.indexOf('wadsworth=0') !== -1){
+        console.debug('[DEBUG] URL contains "wadsworth=0" parameter');
+        return false;
+    }
+
     // get total video runtime
     let timeDurationElements = document.getElementsByClassName('ytp-time-duration');
 
