@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube - Wadsworth's Constant
 // @namespace    https://binary.run/
-// @version      1.0
+// @version      1.1
 // @description  Skips the first 1/3 of the video.
 // @author       Jeff Reeves
 // @match        https://www.youtube.com/watch?v=*
@@ -65,7 +65,7 @@
     console.debug('[DEBUG] wadsworthSeconds: ', wadsworthSeconds);
 
     // create new URL with 1/3 of the total video length set using the "t=" parameter
-    let newURL = URL + '&t=' + wadsworthSeconds;
+    let newURL = URL + '&t=' + wadsworthSeconds + '&wadsworth=1';
     console.debug('[DEBUG] New URL: ', newURL);
 
     // redirect to the new URL
