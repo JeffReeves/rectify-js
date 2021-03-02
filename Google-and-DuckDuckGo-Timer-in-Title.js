@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Timer in Title
+// @name         Google and DuckDuckGo Timer in Title
 // @namespace    https://binary.run/
 // @version      0.4
 // @description  Updates the Tab Title to the value of the Timer
