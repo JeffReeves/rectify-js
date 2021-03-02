@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Reddit-Redirecter
+// @name         Reddit Redirect YouTube WatchLater
 // @namespace    https://binary.run/
 // @version      0.1
-// @description  Redirect away from Reddit (to stop wasting time)
+// @description  Redirect away from Reddit
 // @author       Jeff Reeves
 // @match        https://*.reddit.com/*
 // @grant        none
