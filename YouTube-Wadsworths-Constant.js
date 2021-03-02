@@ -60,6 +60,12 @@
     }
     console.debug('[DEBUG] seconds: ', seconds);
 
+    // if total seconds is less than 60, exit early
+    if(seconds <= 60){
+        console.debug('[DEBUG] Video duration is less than 60 seconds');
+        return false;
+    }
+
     // get 1/3 of total seconds
     const wadsworthSeconds = Math.round(seconds / 3);
     console.debug('[DEBUG] wadsworthSeconds: ', wadsworthSeconds);
